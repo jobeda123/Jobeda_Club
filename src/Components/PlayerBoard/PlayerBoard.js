@@ -15,8 +15,13 @@ const PlayerBoard = () => {
 
     const handleAddPlayer = (newPlayer) =>{
         //console.log("Added player properly",newPlayer);
-        const newAddPlayer = [...addPlayer, newPlayer];
-        setAddPlayer(newAddPlayer);
+        
+        if(addPlayer.indexOf(newPlayer)==-1)
+        {
+            const newAddPlayer = [...addPlayer, newPlayer];
+            setAddPlayer(newAddPlayer);
+        }
+        
     }
     return (
         <div>
