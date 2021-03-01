@@ -1,10 +1,22 @@
 .playerBoard-container{
     display:flex;
+    margin: 10px;
 }
 
 .player-container{
-    width:70%;
+    width:75%;
     margin-left: 20px;
     margin-right: 5px;
-    border-right: 5px solid  lightgray;
+    margin-top:0px;
+    border-right: 2px solid black;
+}
+
+.header{
+    padding: 40px 0px 20px 500px;
+}
+
+
+.AddPlayer-container{
+    margin:10px 20px;
+    padding:10px 0px;
 }

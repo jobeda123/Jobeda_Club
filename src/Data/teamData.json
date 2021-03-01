@@ -103,11 +103,4 @@
     "salary": 20,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4XtAo4FBZll5RNYFhVR0EuHrWrFuPWN8Tew&usqp=CAU",
     "country": "Morocco"
-  }, {
-    "id": 16,
-    "name": "Andrew Robertson",
-    "age": 26,
-    "salary": 13000000,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvUEOQm4nezqPLH2M3la7FQmnbBtMzNEYDiA&usqp=CAU",
-    "country": "Scotland"
   }]
